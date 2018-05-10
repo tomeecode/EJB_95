@@ -9,9 +9,9 @@
                 <h3>Iniciar Sesion!</h3>
                 <form action="control.do" method="post">
                     Rut
-                    <input type="text" name="x1"/>
+                    <input type="text" name="x1" requied/>
                     Clave
-                    <input type="password" name="x2"/>
+                    <input type="password" name="x2" required/>
                     <button class="btn" name="bt" value="inicio">
                         ok
                     </button>
